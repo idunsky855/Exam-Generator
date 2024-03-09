@@ -291,10 +291,6 @@ public class Management implements Serializable {
 		return allTests;
 	}
 
-	public void sortTest() throws IndexOutOfBoundsException {
-		test.sortQuestions();
-	}
-
 	public void printTestWithoutAnswers() throws IndexOutOfBoundsException {
 		// System.out.println("The test without the answers:\n\n" + test.toString());
 		firePrintTestWithoutAnswers("The test without the answers:\n\n" + test.toString());
@@ -445,16 +441,15 @@ public class Management implements Serializable {
 
 	// after all questions were added to test!
 	public void finishTest() throws FileNotFoundException, SQLException {
-		sortTest();
-		//saveTest();
+		// saveTest();
 		addTestToAllTests();
 		printTestWithAnswers();
 		printTestWithoutAnswers();
 
 	}
-	//doesnot add test to db - cloned test!!
+
+	// doesnot add test to db - cloned test!!
 	public void finishClonedTest() {
-		sortTest();
 		printTestWithAnswers();
 		printTestWithoutAnswers();
 	}
