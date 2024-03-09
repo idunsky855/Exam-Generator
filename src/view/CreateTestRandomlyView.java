@@ -3,7 +3,6 @@ package view;
 import java.io.FileNotFoundException;
 import java.sql.SQLException;
 import java.util.ArrayList;
-import java.util.Random;
 
 import javafx.geometry.HPos;
 import javafx.geometry.Insets;

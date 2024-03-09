@@ -2,7 +2,6 @@ package sql;
 
 import java.sql.*;
 
-import model.Answer;
 import model.MultiChoiceQuestion;
 import model.OpenQuestion;
 import model.A_Question;

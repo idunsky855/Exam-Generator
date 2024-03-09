@@ -9,7 +9,6 @@ import java.util.Iterator;
 import java.util.List;
 
 import model.Answer;
-import model.A_Question;
 import model.E_QuestionType;
 
 public class QueryAnswerSql implements I_QueryAnswerSql{

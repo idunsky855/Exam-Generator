@@ -1,7 +1,7 @@
 package view;
 
 import listeners.*;
-import model.A_Question;
+
 
 public interface A_View {
 	void registerListener(I_UIListener listener);
